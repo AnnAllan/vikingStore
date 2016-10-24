@@ -16,6 +16,9 @@ body {
 ul {
 	padding-left: 0;
 }
+footer {
+	clear: both;
+}
 
 /*classes*/
 .product {
@@ -147,6 +150,20 @@ ul {
 	width: 33%;
 	float: left;
 }
-#pagination {
+
+#pag {
 	clear: both;
+}
+#pag ul {
+	width: 400px;
+	margin: 0 auto;
+}
+#pag ul li {
+	list-style-type: none;
+	float: left;
+	font-size: 20px;
+	line-height: 30px;
+	color: #605395;
+	padding: 10px;
+	text-decoration: underline;
 }
