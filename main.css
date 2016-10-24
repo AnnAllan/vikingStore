@@ -9,7 +9,13 @@
 	
 
 /*elements*/
-
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+ul {
+	padding-left: 0;
+}
 
 /*classes*/
 .product {
@@ -32,7 +38,7 @@
 .price {
 	float: right;
 	position: absolute;
-	right: -20px;
+	right: -30px;
 	top: -5px;
 	z-index: 1000;
 	background-color: #fff;
@@ -65,6 +71,31 @@
 }
 	
 /*ids*/
+#nav {
+	width: 800px;
+	margin: 0 auto;
+}
+#nav span {
+	line-height: 50px;
+	font-size: 1.50em;
+}
+#nav ul {
+	display: inline;
+	float: right;
+}
+#nav ul li {
+	list-style-type: none;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 50px;
+	line-height: 50px;
+}
+
+#cartIcon {
+	width: 50px;
+	height: 50px;
+}
 #prodImages {
 	width: 800px;
 	margin: 0 auto;
