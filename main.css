@@ -126,6 +126,16 @@ ul {
 	font-size: 35px;
 	text-align: center;
 }
+#choose {
+	line-height: 45px;
+	border-bottom: 1px solid #666;
+}
+#choose p {
+	color: #666;
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+}
 #prodImages {
 	width: 800px;
 	margin: 0 auto;
